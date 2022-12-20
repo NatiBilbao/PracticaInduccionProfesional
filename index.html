@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Driver</title>
+    <link rel="shortcut icon" href="img/icons8-coche-18.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/dark.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div id="google_translate_element"></div>
+        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <script>
+            function googleTranslateElementInit(){
+                new google.translate.TranslateElement(
+                    {pageLanguage: 'es'},
+                    'google_translate_element'
+                );
+            }
+        </script>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Portafolios</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contactos</a>
+            <li>
+                <button class="switchDark active" id="switch">
+                    <span><i class='bx bx-sun'></i></span>
+                    <span><i class='bx bx-moon'></i></span>
+            </li>
+        </nav>
+        <section class="textos-header">
+            <h1>Transporte de calidad 24/7</h1>
+            <h2>Seguridad y calidad siempre</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" 
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" 
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Misión y Visión</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/undraw_by_my_car_re_j3jt.svg" alt="" class="imagen-sobre-nosotros">
+                <div class="contenido-textos">
+                    <h3><span>1</span>Misión</h3>
+                    <p>Brindar un servicio de calidad tanto a los pasajeros como a los clientes que solicitan el encargo de encomienda y/o delivery.</p>
+                    <h3><span>2</span>Visión</h3>
+                    <p>Transporte seguro, económico y confiable. Entrega de las encomiendas y deliverys a tiempo y sin ningún daño.</p>
+                </div>
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Portafolio</h2>
+                <div class="galeria-portafolio">
+                    <div class="imagen-portafolio">
+                        <img src="img/Conductor1.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/target clic.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-portafolio">
+                        <img src="img/Conductor2.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/target clic.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-portafolio">
+                        <img src="img/Transporte1.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/target clic.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-portafolio">
+                        <img src="img/Transporte2.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/target clic.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-portafolio">
+                        <img src="img/Delivery1.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/target clic.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-portafolio">
+                        <img src="img/Delivery2.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/target clic.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-portafolio">
+                        <img src="img/Encomienda1.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/target clic.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-portafolio">
+                        <img src="img/Encomienda2.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/target clic.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clientes contenedor">
+            <h2 class="titulo">Que dicen nuestros clientes</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/perfil1.jpeg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Patricia Herrera</h4>
+                        <p>El servicio es muy bueno, los conductores muy respetuosos y prudentes al conducir para llegar segura a mi destino.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/perfil2.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Cristoffer Mollinedo</h4>
+                        <p>Es un servicio de muy buena calidad mis encomiendas llegaron sin ningún daño y a la hora indicada.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sobre-el-servicio">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestros servicios</h2>
+                <div class="servicio-contenedor">
+                    <div class="servicio-individual">
+                        <img src="img/undraw_on_the_way_re_swjt.svg" alt="">
+                        <h3>Delivery</h3>
+                        <p>Realizamos delivery de restaurantes, supermercados, farmacias y tiendas.</p>
+                    </div>
+                    <div class="servicio-individual">
+                        <img src="img/undraw_order_ride_re_372k.svg" alt="">
+                        <h3>Transporte privado</h3>
+                        <p>Ofrecemos un servicio de transporte a particulares.</p>
+                    </div>
+                    <div class="servicio-individual">
+                        <img src="img/undraw_order_delivered_re_v4ab.svg" alt="">
+                        <h3>Encomiendas</h3>
+                        <p>Brindamos servicio de transporte de paquetes, sobres y encomiendas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="footer-contenedor">
+                <h4>WhatsApp</h4>
+                <p>78836303</p>
+            </div>
+            <div class="footer-contenedor">
+                <h4>Facebook</h4>
+                <p>Click Driver</p>
+            </div>
+            <div class="footer-contenedor">
+                <h4>Dirección</h4>
+                <p>Plaza Bolognia</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Natalia Bilbao | UPB</h2>
+    </footer>
+    <script src="scrip.js"></script>
+</body>
+</html
